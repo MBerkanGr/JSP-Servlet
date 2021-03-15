@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+		<h3>Ekleme</h3>
+		
+		<form action="RegisterServlet" method="post">
+		<table>
+			<tr>
+				<td>Kullanıcı Adı : </td><td><input type="text" name="username"></td>
+			</tr>
+			<tr>
+				<td>Şifre : </td><td><input type="password" name="password"></td>
+			</tr>
+			<tr>
+				<td>Email : </td><td><input type="text" name="email"></td>
+			</tr>
+			<tr>
+				<td>Telefon : </td><td><input type="text" name="phone"></td>
+			</tr>
+			<tr>
+				<td></td><td><input type="submit" name="submit" value="Kayıt ol"></td>
+			</tr>
+			<tr>
+				<td><input type="hidden" name="form" value="kayit" /></td>
+			</tr>
+		</table>	
+	</form>
+	
+	<hr>
+	
+	<h3>Listeleme</h3>
+	
+	<form action="RegisterServlet" method="post">
+		<input type="submit" value="Liste Göster">
+		<input type="hidden" name="form" value="list" />
+	</form>
+	
+	<hr>
+	
+	<h3>Silme</h3>
+	
+	<form action="RegisterServlet" method="post">
+		Silmek istediğiniz 'ID' yazınız : <input type="text" name="delete">
+		<input type="submit" value="Kayıt Sil">
+		<input type="hidden" name="form" value="delete" />
+	</form>
+	
+	<hr>
+	
+	<h3>Güncelleme</h3>
+	
+	<form action="Update.jsp" method="get">
+		<input type="submit" value="Güncelle">
+	</form>
+	
+	
+	
+</body>
+</html>
