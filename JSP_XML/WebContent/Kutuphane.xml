@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/css" href="Stil_Kutuphane.css" standalone="yes" ?>
+
+<Kutuphane>
+	<baslik>
+		Kitaplar
+	</baslik>
+	<kitap>
+		<isim>
+			Nasreddin Hoca
+		</isim>
+		<yazar>
+			Cevat Nedret
+		</yazar>
+		<fiyat>
+			11
+		</fiyat>
+	</kitap>
+	
+	<kitap>
+		<isim>
+			Garnalpelster
+		</isim>
+		<yazar>
+			Nil Yerli
+		</yazar>
+		<fiyat>
+			15
+		</fiyat>
+	</kitap>
+	
+	<kitap>
+		<isim>
+			Bella Toscane
+		</isim>
+		<yazar>
+			Frances Mayes
+		</yazar>
+		<fiyat>
+			23
+		</fiyat>
+	</kitap>
+	
+	<kitap>
+		<isim>
+			Sufi'nin Yolu
+		</isim>
+		<yazar>
+			Cem Kaan
+		</yazar>
+		<fiyat>
+			48
+		</fiyat>
+	</kitap>
+
+
+</Kutuphane>

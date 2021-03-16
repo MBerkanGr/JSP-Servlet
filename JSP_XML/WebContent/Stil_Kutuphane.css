@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+baslik
+	{
+		margin: 10px 40px;
+		padding: 10px 20px;
+		font-size: 30px;
+		font-family: Arial, Helvetica, sans-serif;
+		background-color: #ffa800;
+		color: #fff;
+		font-weight: bold;
+	}
+kitap
+	{
+		display: block;
+		margin-top: 25px;
+		margin-left: 20px;
+		font-size: 12pt;
+		font-family: Verdana;
+		font-weight:bold;
+	}
+isim
+	{
+		display: block;
+		margin-top: 12px;
+		margin-left: 20px;
+		font-size: 12px;
+		font-family: Verdana;
+		font-weight:bold;
+	}
+yazar
+	{
+		display: block;
+		margin-top: 12px;
+		margin-left: 20px;
+		font-size: 11px;
+		font-family: sans serif;
+	}		
+fiyat
+	{
+		display: block;
+		margin-top: 9px;
+		margin-left: 20px;
+		font-size: 11px;
+		font-family: Times New Roman;
+		font-style: italic;
+	}		
